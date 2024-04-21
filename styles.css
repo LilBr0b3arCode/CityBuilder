@@ -1,0 +1,29 @@
+#game-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #map {
+    width: 70%;
+    height: 500px;
+    border: 1px solid black;
+  }
+  
+  #info-panel {
+    width: 25%;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Dark mode styles */
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+  
